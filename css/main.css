@@ -58,6 +58,14 @@ img{
 }
 
 
+/* VERTICAL CENTER */
+.vertical-center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
 /* HEADER */
 header {
     background: #fff;
@@ -78,9 +86,6 @@ header .logo a{
     text-indent: -9999px; /* 대체 텍스트 */
 }
 header .menu {
-    display: flex;
-    align-items: center;
-    height: 100%;
     margin-right: 20px;
     font-size: 20px
 }
@@ -143,9 +148,6 @@ header .submenu-group a:hover {
     height: 48px;
 }
 .notice-and-gallery .titles {
-    display: flex;
-    align-items: center;
-    height: 100%;
     font-size: 20px;
     font-weight: 600;
 }
@@ -220,9 +222,6 @@ header .submenu-group a:hover {
     width: 800px
 }
 .section--footer .cite-info ul {
-    display: flex;
-    height: 100%;
-    align-items: center;
     justify-content: center;
 }
 .section--footer .cite-info ul li {
