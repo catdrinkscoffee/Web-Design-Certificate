@@ -89,10 +89,6 @@ header .menu {
     margin-right: 20px;
     font-size: 20px
 }
-header .menu-group {
-    display: flex;
-    align-items: center;
-}
 header .menu-group li{
     height: 50px;
 }
