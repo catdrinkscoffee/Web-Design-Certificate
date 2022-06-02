@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    text-align: center;
 }
 body {
     width: 1200px;
@@ -222,4 +221,27 @@ header .submenu-group a:hover {
 }
 .section--footer .cite-info ul li {
     padding: 0 15px;
+}
+
+
+/* MODAL */
+.section--modal{
+    width: 1200px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: absolute;
+    justify-content: center;
+}
+.section--modal .modal-content {
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.section--modal .modal-content .modal-footer {
+    width: 100%;
 }
